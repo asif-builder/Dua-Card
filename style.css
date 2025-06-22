@@ -1,0 +1,37 @@
+body {
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid #4caf50;
+}
+
+.card h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.from {
+  margin-top: 20px;
+  font-style: italic;
+  color: #777;
+}
